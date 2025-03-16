@@ -10,4 +10,6 @@ public class Hospital
     public string? Name { get; set; }
     public string? Adress { get; set; }
     public string? City { get; set; }
+
+    public List<Doctor>? Doctors { get; set; }
 }
